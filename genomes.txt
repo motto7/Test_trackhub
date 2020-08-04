@@ -1,0 +1,88 @@
+genome Anc0
+twoBitPath Anc0/Anc0.2bit
+trackDb Anc0/trackDb.txt
+groups groups.txt
+htmlPath Anc0/description.html
+description Anc0
+organism Anc0
+orderKey 4800
+scientificName Anc0
+defaultPos Anc0refChr583:1-1000
+
+genome bos_indicus
+twoBitPath bos_indicus/bos_indicus.2bit
+trackDb bos_indicus/trackDb.txt
+groups groups.txt
+htmlPath bos_indicus/description.html
+description bos_indicus
+organism bos_indicus
+orderKey 4800
+scientificName bos_indicus
+defaultPos CM003021.1_Bos_indicus_chromosome_1:1-1000
+
+genome bos_taurus
+twoBitPath bos_taurus/bos_taurus.2bit
+trackDb bos_taurus/trackDb.txt
+groups groups.txt
+htmlPath bos_taurus/description.html
+description bos_taurus
+organism bos_taurus
+orderKey 4800
+scientificName bos_taurus
+defaultPos CM008168.2_Bos_taurus_chromosome_1:1-1000
+
+genome bubalus
+twoBitPath bubalus/bubalus.2bit
+trackDb bubalus/trackDb.txt
+groups groups.txt
+htmlPath bubalus/description.html
+description bubalus
+organism bubalus
+orderKey 4800
+scientificName bubalus
+defaultPos CM009840.1_Bubalus_bubalis_chromosome_1:1-1000
+
+genome dom_yak
+twoBitPath dom_yak/dom_yak.2bit
+trackDb dom_yak/trackDb.txt
+groups groups.txt
+htmlPath dom_yak/description.html
+description dom_yak
+organism dom_yak
+orderKey 4800
+scientificName dom_yak
+defaultPos CM016690.1_Bos_grunniens_chromosome_1:1-1000
+
+genome goat
+twoBitPath goat/goat.2bit
+trackDb goat/trackDb.txt
+groups groups.txt
+htmlPath goat/description.html
+description goat
+organism goat
+orderKey 4800
+scientificName goat
+defaultPos CM004562.1_Capra_hircus_chromosome_1:1-1000
+
+genome gruxtau_tau
+twoBitPath gruxtau_tau/gruxtau_tau.2bit
+trackDb gruxtau_tau/trackDb.txt
+groups groups.txt
+htmlPath gruxtau_tau/description.html
+description gruxtau_tau
+organism gruxtau_tau
+orderKey 4800
+scientificName gruxtau_tau
+defaultPos CM018700.1_gruxtau_tau_chromosome_1:1-1000
+
+genome indxtau
+twoBitPath indxtau/indxtau.2bit
+trackDb indxtau/trackDb.txt
+groups groups.txt
+htmlPath indxtau/description.html
+description indxtau
+organism indxtau
+orderKey 4800
+scientificName indxtau
+defaultPos CM011804.1_indxtau_ind_chromosome_1:1-1000
+

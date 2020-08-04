@@ -1,0 +1,107 @@
+track hubCentral
+compositeTrack on
+shortLabel my hub
+longLabel my hub
+group comphub
+subGroup1 view Track_Type Snake=Alignments  
+subGroup2 orgs Organisms Anc0=Anc0 goat=goat bos_taurus=bos_taurus dom_yak=dom_yak bubalus=bubalus gruxtau_tau=gruxtau_tau bos_indicus=bos_indicus indxtau=indxtau
+dragAndDrop subTracks
+#allButtonPair on
+dimensions dimensionX=view dimensionY=orgs
+noInherit on
+priority 0
+centerLabelsDense on
+visibility full
+html ../documentation/hubCentral
+type bigBed 3
+
+	track hubCentralAlignments
+	shortLabel Alignments
+	view Alignments
+	visibility full
+	subTrack hubCentral
+
+		track snakeAnc0
+		longLabel Anc0
+		shortLabel Anc0
+		otherSpecies Anc0
+		visibility full
+		parent hubCentralAlignments
+		priority 2
+		bigDataUrl ../out_test_threading
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=Anc0
+
+		track snakegoat
+		longLabel goat
+		shortLabel goat
+		otherSpecies goat
+		visibility full
+		parent hubCentralAlignments
+		priority 3
+		bigDataUrl ../out_test_threading
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=goat
+
+		track snakebos_taurus
+		longLabel bos_taurus
+		shortLabel bos_taurus
+		otherSpecies bos_taurus
+		visibility full
+		parent hubCentralAlignments
+		priority 4
+		bigDataUrl ../out_test_threading
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=bos_taurus
+
+		track snakedom_yak
+		longLabel dom_yak
+		shortLabel dom_yak
+		otherSpecies dom_yak
+		visibility hide
+		parent hubCentralAlignments off
+		priority 5
+		bigDataUrl ../out_test_threading
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=dom_yak
+
+		track snakebubalus
+		longLabel bubalus
+		shortLabel bubalus
+		otherSpecies bubalus
+		visibility hide
+		parent hubCentralAlignments off
+		priority 6
+		bigDataUrl ../out_test_threading
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=bubalus
+
+		track snakegruxtau_tau
+		longLabel gruxtau_tau
+		shortLabel gruxtau_tau
+		otherSpecies gruxtau_tau
+		visibility hide
+		parent hubCentralAlignments off
+		priority 7
+		bigDataUrl ../out_test_threading
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=gruxtau_tau
+
+		track snakebos_indicus
+		longLabel bos_indicus
+		shortLabel bos_indicus
+		otherSpecies bos_indicus
+		visibility hide
+		parent hubCentralAlignments off
+		priority 8
+		bigDataUrl ../out_test_threading
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=bos_indicus
+
